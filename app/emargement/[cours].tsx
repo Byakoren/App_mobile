@@ -11,7 +11,7 @@ export default function EmargementScreen() {
   const handleOK = (signature: string) => {
     console.log("Signature base64 :", signature);
     Alert.alert('Succès', 'Signature capturée !');
-    // Tu pourras ici POST la signature à ton backend Symfony
+
   };
 
   const handleEmpty = () => {
